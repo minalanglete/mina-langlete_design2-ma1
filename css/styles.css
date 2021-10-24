@@ -1,0 +1,188 @@
+body {
+  max-width: 100%;
+  margin: auto;
+}
+
+header {
+  background-color: #4b4745;
+  padding-top: 30px;
+}
+main {
+  background-image: url("background2.png");
+  background-size: cover;
+  max-width: 100%;
+
+  margin: 0 auto;
+}
+footer {
+  background-color: #302c29;
+  color: white;
+  padding: 10px;
+  margin: 0px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 600;
+  text-align: center;
+}
+.sm {
+  font-size: 30px;
+  margin-top: 0px;
+}
+.fab {
+  padding-right: 10px;
+}
+.logo {
+  max-width: 400px;
+}
+.logo-container {
+  width: 400px;
+  margin: 0 auto;
+}
+
+.nav-conteiner {
+  background-color: #ffffff80;
+  padding: 5px;
+}
+.nav {
+  display: flex;
+  color: #4b4745;
+  opacity: 100%;
+  justify-content: center;
+  gap: 30px;
+  text-transform: uppercase;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 600;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+a:visited {
+  color: white;
+}
+a:hover {
+  color: #4b4745;
+}
+.main-container {
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  position: relative;
+}
+.decorimg {
+  max-width: 500px;
+  padding: 40px 10px 0px 60px;
+}
+.slogan-line1,
+.slogan-line2,
+.slogan-line3 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 50px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  position: absolute;
+  color: #302c29;
+  letter-spacing: 0.2em;
+}
+.slogan-line1 {
+  top: 120px;
+  left: 240px;
+}
+.slogan-line2 {
+  top: 180px;
+  left: 300px;
+}
+.image-text {
+  top: 30px;
+  font-family: "Dancing Script", cursive;
+  font-size: 60px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  position: absolute;
+  color: #302c29;
+  padding-bottom: 10px;
+}
+
+.text {
+  max-width: 250px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  padding-top: 270px;
+  padding-left: 30px;
+  line-height: 1.8;
+  text-align: justify;
+  letter-spacing: 0.05em;
+}
+.image-container {
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  position: relative;
+  padding-bottom: 50px;
+}
+.img {
+  padding-right: 30px;
+  padding-top: 110px;
+  max-width: 280px;
+}
+.slogan-line3 {
+  display: none;
+}
+/*-----------media queries-----------------------------------------------------------------*/
+
+@media only screen and (max-width: 900px) {
+  .decorimg {
+    width: 300px;
+    margin: 0 auto;
+    padding: 30px;
+    padding-left: 40px;
+  }
+  .slogan-line1,
+  .slogan-line2 {
+    display: none;
+  }
+  .main-container {
+    max-width: 400px;
+    display: block;
+  }
+  .slogan-line3 {
+    display: block;
+    font-size: 30px;
+    left: 100px;
+    top: 50px;
+  }
+  .text {
+    max-width: 300px;
+    padding-top: 0px;
+    padding-bottom: 70px;
+    padding-left: 40px;
+    line-height: 1.8;
+    text-align: justify;
+    letter-spacing: 0.05em;
+  }
+  .image-container {
+    max-width: 300px;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    padding-bottom: 20px;
+    padding-left: 15px;
+  }
+  .img {
+    padding-right: 30px;
+    padding-top: 10px;
+    max-width: 280px;
+  }
+  .image-text {
+    font-size: 45px;
+    top: -60px;
+  }
+  .logo {
+    width: 300px;
+  }
+  .logo-container {
+    width: 300px;
+    margin: 0 auto;
+  }
+}
